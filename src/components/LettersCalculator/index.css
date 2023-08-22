@@ -1,0 +1,82 @@
+/* Write your code here. */
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.letters-calculator-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 60px;
+}
+.image {
+  height: 500px;
+  width: 600px;
+}
+.label-el {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.input {
+  height: 40px;
+  width: 400px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 10px;
+}
+
+.letters-count {
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  color: #219a6f;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .letters-calculator-container {
+    order: 1;
+  }
+  .image {
+    height: 300px;
+    width: 400px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .label-el {
+    font-size: 12px;
+  }
+  .input {
+    width: 300px;
+    height: 30px;
+  }
+  .letters-count {
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 20px;
+  }
+}
